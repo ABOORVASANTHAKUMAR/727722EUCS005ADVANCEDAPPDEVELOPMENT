@@ -1,0 +1,18 @@
+/* AdminStatistics.css */
+.admin-statistics {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+  }
+  
+  .stat-item {
+    margin: 10px 0;
+  }
+  
+  .stat-item h3 {
+    color: #2C3E50;
+    margin-bottom: 5px;
+  }
+  

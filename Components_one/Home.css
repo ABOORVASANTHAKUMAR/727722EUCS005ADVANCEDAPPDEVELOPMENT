@@ -1,0 +1,110 @@
+/* Home.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/017/091/014/small_2x/lamp-lightbulb-energy-power-electric-wear-hat-cap-symbol-decoration-creative-idea-study-learning-congratulation-design-copy-space-university-high-school-achievement-glowing-smart-success-knowledge-photo.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+  height: 100%;
+  color:#2c786c;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  text-align: center;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  color: #fff;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.login-section {
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.login-box {
+  background:#007bff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box label {
+  margin: 10px 0 5px;
+  font-size: 14px;
+}
+
+.login-box input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.login-box button {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: #0056b3;
+}
+
+.login-box p {
+  font-size: 14px;
+}
+
+.login-box p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-box p a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: #fff;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+  }

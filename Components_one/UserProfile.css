@@ -1,0 +1,67 @@
+/* UserProfile.css */
+
+.user-profile {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-profile h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .user-profile form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .user-profile label {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .user-profile input[type="text"],
+  .user-profile input[type="email"],
+  .user-profile input[type="checkbox"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+  }
+  
+  .user-profile input[type="text"]:focus,
+  .user-profile input[type="email"]:focus {
+    border-color: #18bc9c;
+    outline: none;
+  }
+  
+  .user-profile button {
+    background-color: #18bc9c;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-profile button:hover {
+    background-color: #15a085;
+  }
+  
+  .success-message {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+  }
+  
